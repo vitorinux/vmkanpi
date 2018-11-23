@@ -32,3 +32,7 @@ Requirements
 	arround is either using an older version of libxml (2.3.9 for 
 	example) or to build it as static library without the dynamic one 
 	being built.
+   Debian 8 GNU/Linux:
+	
+        $ sudo apt-get install openjade jadetex transfig imagemagick \
+            docbook-dsssl docbook-utils
