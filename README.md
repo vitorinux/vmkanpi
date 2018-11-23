@@ -1,5 +1,5 @@
 # vmkanpi
-# How to install from source Kannel 1.4.5
+# Install from source Kannel 1.4.5 on RPI 3 model B+
 
 Introduction
 
@@ -32,7 +32,6 @@ Requirements
 	arround is either using an older version of libxml (2.3.9 for 
 	example) or to build it as static library without the dynamic one 
 	being built.
-   Debian 8 GNU/Linux:
+   Raspbian Stretch Lite (2018-11-13)
 	
-        $ sudo apt-get install openjade jadetex transfig imagemagick \
-            docbook-dsssl docbook-utils
+        $ sudo apt install openjade jadetex transfig imagemagick docbook-dsssl docbook-utils zlibc
